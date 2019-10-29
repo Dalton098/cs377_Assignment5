@@ -44,6 +44,7 @@ public class Cs377_Assignment5 {
             
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 //            Since I am on linux I cannot use the below line to connect to my database
+//            So uncomment the line below and comment the other connectUrl line for it to work for you
 //            String connectionUrl = "jdbc:sqlserver://localhost;integratedSecurity=true;";
             String connectionUrl = "jdbc:sqlserver://localhost;databaseName=Assignment4;integratedSecurity=false;user=sa;password=reallyStrongPwd123";
             conn = DriverManager.getConnection(connectionUrl);
