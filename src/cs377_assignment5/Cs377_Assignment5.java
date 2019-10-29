@@ -71,7 +71,9 @@ public class Cs377_Assignment5 {
         int numOfRows = 0;
         
         while (rs.next()) {
+            
              numOfRows++;
+             
             for (int i = 1; i < numOfCols + 1; i++) {
                 
                 grade = rs.getString(i);
